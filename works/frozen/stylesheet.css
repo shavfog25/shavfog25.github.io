@@ -1,0 +1,155 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+	/*end of reset*/
+	
+
+
+    #banner{
+        background-image: url(frozen.jpg);
+        background-size: cover;
+    }
+
+    #banner .logo {
+        width: 70%;
+        height: auto;
+        padding-left: 14%;
+    }
+
+	#banner .cast {
+        width: 70%;
+        height: auto;
+        padding-left: 5%;
+    }
+	
+	p, h3, td {
+		color: #FFFFFF;
+		font-family: 'Cinzel Decorative', cursive;
+	}
+	
+#menu:before,
+#menu:after {
+    content: " ";
+    display: table;
+}
+#menu:after {
+    clear: both;
+}
+#menu {
+    *zoom: 1;
+}
+
+#menu {
+    background-color: #000000;
+    /*margin-top: 5%;
+    margin-bottom: 5%;*/
+}
+
+#menu li{
+        display:inline-block;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 3em;
+        overflow: hidden;
+        padding: 4.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+	
+#content {
+        height: 100%;
+		background-color: #000000;
+        background-image: url(ice_palace.jpg);
+        background-size: cover;
+}
+
+/*plot page*/
+
+#line {
+    padding: 2%;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#synopsis {
+    padding: 25%;
+    font-weight: bolder;
+    font-size: 1.4em;
+    overflow: scroll;
+    height: 99px;
+}
+
+/*plot page end*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*cinema page*/
+
+#location {
+    font-size: 1.3em;
+    padding: 5%;
+    margin-right: 45%;
+     font-family: 'Cinzel Decorative', cursive;
+}
+
+#house {
+    padding: 5%;
+    font-size: 1.3em;
+    margin-right: 45%;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 43.6%;
+    height: 10;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    padding-left: 45%;
+    
+}
+
+/*cinema page end*/
+
+#footer {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    /*margin-top: 10%;*/
+    clear: both;
+}
+
+  .slicknav_menu {
+        display:none;
+    }
+    
+    @media screen and (max-width: 40em) {
+        /* #menu is the original menu */
+        .js #menu {
+            display:none;
+        }
+        
+        .js .slicknav_menu {
+            display:block;
+        }
+    }

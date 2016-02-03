@@ -1,0 +1,403 @@
+/* line 1, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+header {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  height: 150px;
+  width: 100%;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s; }
+  /* line 14, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  header #logo {
+    font-weight: bolder;
+    font-size: 7.7em;
+    font-family: 'Pacifico', cursive;
+    color: #a9a9a9;
+    float: left;
+    line-height: 0px;
+    display: inline-block;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s; }
+
+/* line 30, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+header.smaller {
+  height: 75px; }
+  /* line 32, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  header.smaller #logo {
+    font-size: 2em; }
+
+/*end of header css*/
+@media only screen and (min-width: 996px) {
+  /* line 40, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  nav {
+    font-family: 'Oxygen';
+    display: inline-block;
+    float: right;
+    margin-top: 15px; }
+    /* line 45, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    nav a {
+      margin: 30px 60px 10px 0px;
+      text-decoration: none;
+      color: #a9a9a9;
+      -webkit-transition: all 2s;
+      -moz-transition: all 2s;
+      -ms-transition: all 2s;
+      -o-transition: all 2s;
+      transition: all 2s; }
+  /* line 57, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .mobilenav {
+    visibility: hidden; }
+  /* line 61, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  #bio {
+    font-family: 'Oxygen';
+    background-color: #bff2e1;
+    margin-top: 225px;
+    height: 400px;
+    padding-left: 75px; }
+    /* line 67, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #bio #photo {
+      float: left;
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      border: solid 5px #cec1cd;
+      margin-top: 20px; }
+    /* line 75, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #bio p {
+      padding: 126px 0px 0px 500px; }
+  /* line 81, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  #skills {
+    font-family: 'Oxygen';
+    height: 600px; }
+    /* line 84, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #skills #content {
+      width: 100%;
+      height: 600px; }
+      /* line 91, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      #skills #content .legend {
+        float: left;
+        width: 250px;
+        margin-top: 140px;
+        padding-left: 145px; }
+        /* line 96, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+        #skills #content .legend h1 {
+          text-align: right; }
+        /* line 101, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+        #skills #content .legend h2 {
+          text-align: right; }
+        /* line 106, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+        #skills #content .legend .skills {
+          float: left;
+          clear: both;
+          width: 100%; }
+          /* line 110, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills ul {
+            display: block;
+            list-style: none;
+            margin: 0;
+            padding: 0; }
+            /* line 115, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+            #skills #content .legend .skills ul li {
+              display: block;
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              float: right;
+              clear: both;
+              padding: 0 15px;
+              height: 35px;
+              line-height: 35px;
+              color: #000000;
+              margin-bottom: 1px;
+              font-size: 18px; }
+          /* line 131, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .html {
+            background-color: #ffd1dc; }
+          /* line 134, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .css {
+            background-color: #ffb347; }
+          /* line 137, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .js {
+            background-color: #bdecb6; }
+          /* line 140, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .jq {
+            background-color: #ff6961; }
+          /* line 143, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .cl {
+            background-color: #b4cfec; }
+          /* line 146, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .ps {
+            background-color: #edebee; }
+      /* line 152, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      #skills #content #diagram {
+        float: left; }
+      /* line 158, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      #skills #content .get {
+        display: none; }
+  /* line 164, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  #resume {
+    font-family: 'Oxygen';
+    height: 600px;
+    background-image: url("../img/symphony.png");
+    background-attachment: fixed; }
+    /* line 169, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #resume img {
+      padding: 20% 0% 0% 37.5%;
+      height: 50px;
+      width: 50px; }
+    /* line 174, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #resume a {
+      color: #9a9a9a;
+      text-decoration: none;
+      font-size: 1.7em; }
+  /* line 181, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  #works {
+    background-color: #ffd1dc;
+    font-family: 'Oxygen'; }
+    /* line 184, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #works ul {
+      padding-left: 8.5%; }
+      /* line 186, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      #works ul li {
+        margin: 5px 10px 5px 10px;
+        list-style-type: none;
+        display: inline-block; }
+        /* line 190, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+        #works ul li img {
+          height: 250px;
+          width: 250px;
+          overflow: hidden; }
+  /* line 199, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  footer {
+    background-color: #000000;
+    height: 100px; }
+    /* line 202, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    footer #social {
+      margin: 0% 40% 0% 48%; }
+      /* line 205, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      footer #social img {
+        height: 25px;
+        width: 25px; } }
+
+@media only screen and (max-width: 995px) {
+  /* line 214, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .top-animate {
+    background: #9a9a9a !important;
+    top: 13px !important;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  /* line 221, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .mid-animate {
+    opacity: 0; }
+  /* line 225, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .bottom-animate {
+    background: #9a9a9a !important;
+    top: 13px !important;
+    -webkit-transform: rotate(-225deg);
+    transform: rotate(-225deg); }
+  /* line 232, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .top-menu {
+    top: 5px;
+    width: 25px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #9a9a9a; }
+  /* line 240, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .mid-menu {
+    top: 13px;
+    width: 25px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #9a9a9a; }
+  /* line 248, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .bottom-menu {
+    top: 21px;
+    width: 25px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #9a9a9a; }
+  /* line 256, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .menui {
+    background: #9a9a9a;
+    transition: 0.6s ease;
+    transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
+    margin-top: 10px;
+    position: absolute; }
+  /* line 264, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .icon {
+    z-index: 999;
+    position: fixed;
+    display: block;
+    padding: 9px;
+    height: 32px;
+    width: 32px;
+    margin: 0px;
+    top: 0;
+    right: 0; }
+  /* line 276, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  nav {
+    display: none; }
+  /* line 280, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  .mobilenav {
+    font-family: 'Oxygen';
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+    position: fixed;
+    background: #ffffff;
+    margin-top: 30px; }
+    /* line 289, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    .mobilenav li {
+      list-style-type: none;
+      text-align: center;
+      padding: 10px; }
+      /* line 293, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      .mobilenav li a {
+        font-size: 150%;
+        color: #9a9a9a;
+        text-decoration: none;
+        font-weight: 300;
+        width: 100%; }
+  /* line 303, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  #bio {
+    background-color: #bff2e1;
+    margin-top: 225px;
+    height: 500px;
+    padding-left: 5%; }
+    /* line 308, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #bio #photo {
+      float: left;
+      width: 250px;
+      height: 250px;
+      border-radius: 150px;
+      border: solid 5px #cec1cd;
+      margin-top: 17%; }
+    /* line 316, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #bio p {
+      float: left;
+      padding: 126px 0px 0px 50px;
+      margin-top: 17%;
+      font-family: 'Oxygen'; }
+  /* line 324, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  #skills {
+    height: 600px;
+    font-family: 'Oxygen'; }
+    /* line 327, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #skills #content {
+      width: 100%;
+      height: 600px; }
+      /* line 334, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      #skills #content .legend {
+        float: left;
+        width: 250px;
+        margin-top: 140px; }
+        /* line 339, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+        #skills #content .legend h1 {
+          text-align: right; }
+        /* line 342, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+        #skills #content .legend h2 {
+          text-align: right; }
+        /* line 347, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+        #skills #content .legend .skills {
+          float: left;
+          clear: both;
+          width: 100%; }
+          /* line 351, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills ul {
+            display: block;
+            list-style: none;
+            margin: 0;
+            padding: 0; }
+            /* line 356, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+            #skills #content .legend .skills ul li {
+              display: block;
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              float: right;
+              clear: both;
+              padding: 0 15px;
+              height: 35px;
+              line-height: 35px;
+              color: #000000;
+              margin-bottom: 1px;
+              font-size: 18px; }
+          /* line 372, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .html {
+            background-color: #ffd1dc; }
+          /* line 375, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .css {
+            background-color: #ffb347; }
+          /* line 378, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .js {
+            background-color: #bdecb6; }
+          /* line 381, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .jq {
+            background-color: #ff6961; }
+          /* line 384, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .cl {
+            background-color: #b4cfec; }
+          /* line 387, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+          #skills #content .legend .skills .ps {
+            background-color: #edebee; }
+      /* line 392, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      #skills #content #diagram {
+        float: left; }
+      /* line 398, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      #skills #content .get {
+        display: none; }
+  /* line 404, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  #resume {
+    font-family: 'Oxygen';
+    height: 300px;
+    background-image: url("../img/symphony.png");
+    background-attachment: fixed;
+    text-align: center; }
+    /* line 410, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #resume img {
+      display: none; }
+    /* line 413, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #resume a {
+      padding-top: 5%;
+      margin-top: 45%;
+      text-decoration: none;
+      font-size: 1.7em;
+      color: #9a9a9a; }
+  /* line 422, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  #works {
+    background-color: #ffd1dc;
+    font-family: 'Oxygen'; }
+    /* line 425, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    #works ul {
+      padding-left: 8.5%; }
+      /* line 427, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      #works ul li {
+        margin: 5px 10px 5px 10px;
+        list-style-type: none;
+        display: inline-block; }
+        /* line 431, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+        #works ul li img {
+          height: 250px;
+          width: 250px; }
+  /* line 439, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+  footer {
+    background-color: #000000;
+    height: 100px; }
+    /* line 442, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+    footer #social {
+      margin: 0% 40% 0% 46%; }
+      /* line 445, /Users/shaverne/Desktop/nycda/frontend101/finalProject/sass/base.scss */
+      footer #social img {
+        height: 25px;
+        width: 25px; } }
+
+/*# sourceMappingURL=base.css.map */

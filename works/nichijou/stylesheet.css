@@ -1,0 +1,99 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+
+* {
+	background-color: #464544;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: #99b3c0;
+	font-family: 'Source Code Pro', ;
+	font-size: 1.1em;
+	padding: 1em;
+    font-weight: 900;
+}
+
+h3 {
+    padding-bottom: 7%;
+}
+
+p {
+	padding:1em;
+}
+
+.boy {
+	color: #6A8EF9;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.girl {
+	color: #ec3db7;
+	font-family: 'Syncopate', sans-serif;
+}
+
+.both {
+	color: #AA11E6;
+	font-family: 'Limelight', cursive;
+}
+
+.a {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 2em;
+	color: #FA0307;
+}
+
+.b {
+	font-family: 'Kranky', cursive;
+	letter-spacing: 1em;
+	color: #ec008c;
+}
+
+.c {
+	color:#F9F9F9;
+	text-shadow: 0 0 10px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff, 0 0 4px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 100px #ffffff, 0 0 15px #ffffff;
+}
+
+.d {
+	color:#EBDF19;
+	font-weight: bolder;
+}
+
+.e {
+	color: #FA0307;
+}
+
+.f {
+	font-size: 3em;
+}
+
+.g {
+	letter-spacing: 1em;
+	color:#E693D9;
+}
+
+.i {
+	color:#97dbf2;
+}
+
+.j {
+	text-shadow: 2px 1px 1px #6A8EF9;
+}
+
+.k {
+	font-family: 'Rock Salt', cursive;
+	font-weight:bolder;
+}
+
+.l { 
+	text-shadow: 2px 1px 1px #ec3db7;
+}
+
+a:link, a:visited, a:hover, a:active, a:focus {
+	display:inline-block;
+	width: 100%;
+	color: #ffffff;
+	font-family: 'Source Code Pro', ;
+	text-decoration: none;
+    padding: 2%;
+}

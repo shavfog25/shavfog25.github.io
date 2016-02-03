@@ -1,1 +1,216 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shavfog</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link href='https://fonts.googleapis.com/css?family=Pacifico|Oxygen' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+	<div class="container clearfix">
+		<h1 id="logo">shavfog</h1>
+		<nav>	
+			<a href="#bio">bio</a>					
+			<a href="#skills">skills</a>				
+			<a href="#resume">resume</a>
+			<a href="#works">works</a>					
+		</nav>
+	</div>
+		<div class="mobilenav">
+			<li><a href="#bio">bio</a></li>
+			<li><a href="#skills">skills</a></li>
+			<li><a href="#resume">resume</a></li>
+			<li><a href="#works">works</a></li>
+		</div>
+		<a href="javascript:void(0)" class="icon">
+  <div class="hamburger">
+    <div class="menui top-menu"></div>
+    <div class="menui mid-menu"></div>
+    <div class="menui bottom-menu"></div>
+  </div>
+</a>
+	</header>
+	<div id="fullpage">
+	<section id="bio" data-stellar-background-ratio="0.5">
+		<img src="img/headshots.gif" id="photo" alt="headshot"/>
+		<p>Shav Fogarty<br>
+           NYC based Web Developer in Training<br>
+           I love Japanese Culture, K-Dramas, Star Wars, & dessert</p>
+	</section>
+	<section id="skills" data-stellar-background-ratio="0.5">
+		<div id="content">
+			<div class="legend">
+				<h1>My skills</h1>
+				<h2>How comfy am I?</h2>
+				<div class="skills">
+					<ul>
+						<li class="html">HTML5</li>
+						<li class="css">CSS3 & SASS</li>
+						<li class="js">JavaScript</li>
+						<li class="jq">JQuery</li>
+						<li class="cl">Command Line</li>
+						<li class="ps">Photoshop</li>
+					</ul>
+				</div>	
+			</div>
+<!--		</div>-->
+<!--		</section>-->
+		<div id="diagram">
+		<div class="get">
+			<div class="arc">
+				<span class="text">HTML5</span>
+				<input type="hidden" class="percent" value="95" />
+				<input type="hidden" class="color" value="#ffd1dc" />
+			</div>
+			<div class="arc">
+				<span class="text">CSS3/SASS</span>
+				<input type="hidden" class="percent" value="85" />
+				<input type="hidden" class="color" value="#ffb347" />
+			</div>
+			<div class="arc">
+				<span class="text">Javascript</span>
+				<input type="hidden" class="percent" value="75" />
+				<input type="hidden" class="color" value="#bdecb6" />
+			</div>
+			<div class="arc">
+				<span class="text">JQuery</span>
+				<input type="hidden" class="percent" value="60" />
+				<input type="hidden" class="color" value="#ff6961" />
+			</div>
+			<div class="arc">
+				<span class="text">Command Line</span>
+				<input type="hidden" class="percent" value="70" />
+				<input type="hidden" class="color" value="#b4cfec" />
+			</div>
+						<div class="arc">
+				<span class="text">Photoshop</span>
+				<input type="hidden" class="percent" value="65" />
+				<input type="hidden" class="color" value="#edebee" />
+			</div>
+		</div>
+		</div>
+	</section>
+	<section id="resume" data-stellar-background-ratio="0.5">
+		<img src="img/download_Icon.png"><a href="resume.pdf">Download my CV</a>
+	</section>
+	<section id="works" data-stellar-background-ratio="0.5">
+          <div class="container">
+            <ul>
+                <li>
+                    <a href="works/bizSite/index.html">
+                    <img src="works/bizSite/logo/madLogo.jpg" title="Class project: Business Site" />
+                    </a>
+                </li>
+                <li>
+                    <a href="works/causeSite/index.html" >
+                    <img src="works/causeSite/img/map.jpg" title="Class project: Charity site" />
+                    </a>
+                </li>
+                <li>
+                    <a href="works/bamboo_house/index.html">
+                    <img src="works/bamboo_house/bamboo_forest_house.jpg" title="Class project: Restuarant site" />
+                    </a>
+                </li>
+                <li>
+                    <a href="works/frozen/index.html">
+                    <img src="works/frozen/snowflake.jpg" title="Class project: Movie site" />
+                    </a>
+                </li>
+                <li>
+                    <a href="works/social_media_page/index.html">
+                    <img src="works/social_media_page/img/instagram.jpg" title="Class project: Social Media Landing page" />
+                    </a>
+                </li>
+                <li>
+                    <a href="works/nichijou/index.html">
+                    <img src="works/nichijou/nichijou.jpg" title="Playing with Typography" />
+                    </a>
+                </li>
+                                <li>
+                    <a href="#">
+                    <img src="img/coding-icon.jpg" title="Coming Soon" />
+                    </a>
+                </li>
+                                <li>
+                    <a href="#">
+                    <img src="img/coding-icon.jpg" title="Coming Soon" />
+                    </a>
+                </li>
+            </ul>
+		</div>
+	</section>
+  	<footer>
+  		<div id="social">
+  		<a href="https://www.facebook.com/shaverne.fogarty" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+                        <a href="https://twitter.com/shavfog" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+                        <a href="http://linkedin.com/in/shavfog/" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
+		</div>
+  	</footer>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/raphael.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/jquery.sliphover.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script>
+
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 45,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+	
+	function togglescroll() {
+  $('body').on('touchstart', function(e) {
+    if ($('body').hasClass('noscroll')) {
+      e.preventDefault();
+    }
+  });
+}
+
+$(document).ready(function() {
+  togglescroll()
+  $(".icon").click(function() {
+    $(".mobilenav").fadeToggle(500);
+    $(".top-menu").toggleClass("top-animate");
+    $("body").toggleClass("noscroll");
+    $(".mid-menu").toggleClass("mid-animate");
+    $(".bottom-menu").toggleClass("bottom-animate");
+  });
+});
+
+// PUSH ESC KEY TO EXIT
+
+$(document).keydown(function(e) {
+  if (e.keyCode == 27) {
+    $(".mobilenav").fadeOut(500);
+    $(".top-menu").removeClass("top-animate");
+    $("body").removeClass("noscroll");
+    $(".mid-menu").removeClass("mid-animate");
+    $(".bottom-menu").removeClass("bottom-animate");
+  }
+});
+/*end of header code*/
+/*gallery code*/
+	$(".container").sliphover({
+		
+		
+	});
+</script>
+</body>
+</html>

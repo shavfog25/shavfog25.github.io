@@ -1,0 +1,67 @@
+body{
+	background-image:url("../img/teaParty.png");
+	background-repeat: no-repeat;
+}
+
+#runner{
+	background-color: rgba(228,201,206,.65);
+}
+
+.rowLogo{
+	padding: 0;
+}
+
+#nav{
+}
+
+ul{
+    list-style: none;
+}
+
+#nav ul li{
+	list-style: none;
+	/*background-color: rgb(139,35,17);*/
+	background-color: rgb(77,27,78);
+	padding: 10px;
+	margin: 10px;
+	font-family: "Bodoni Std";
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#nav ul li:hover{
+	background-color: rgb(139,35,17);
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 620px;
+	height: 427px;
+	margin: auto;
+  }
+
+#myCarousel{
+	width: 620px;
+	height: 427px;
+	overflow: hidden;
+	margin: 0px;
+}
+
+#menu{
+    background-color: rgba(228,201,206,.65);
+    max-height: 600px;
+    overflow: scroll;
+}
